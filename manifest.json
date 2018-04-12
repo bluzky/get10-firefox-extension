@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Number Up",
+  "version": "1.0",
+  "description":
+    "A simple game with number. Click cells with same number to create a bigger number. Make the biggest number that you can.",
+  "permissions": ["tabs"],
+  "icons": {
+    "48": "img/icon-48.png",
+    "96": "img/icon-96.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "img/icon-19.png",
+      "38": "img/icon-38.png"
+    },
+    "default_title": "Number Up"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "author": "54tribes"
+}
