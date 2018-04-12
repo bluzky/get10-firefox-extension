@@ -19,5 +19,6 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "author": "54tribes"
+  "author": "54tribes",
+  "homepage_url": "https://github.com/bluzky/get10-firefox-extension"
 }
